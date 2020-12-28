@@ -76,8 +76,8 @@ print('Tensorflow version:', tf.__version__)
 
 
 num_classes = 10
-width = 224
-height = 224
+width = 128
+height = 128
 depth = 3
 model = Sequential()
 inputShape = (height, width, depth)
