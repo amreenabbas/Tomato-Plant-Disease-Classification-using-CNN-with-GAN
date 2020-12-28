@@ -141,7 +141,7 @@ list_vectors = []
 for image_path in img_info.image_path:
     #read as rgb array
     img = Image.open(image_path)
-    size = (224, 224)
+    size = (128, 128)
     img = img.resize(size, PIL.Image.ANTIALIAS)  
     img_array = np.array(img)
     #append image vector to list
